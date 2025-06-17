@@ -1,0 +1,1924 @@
+0033
+
+a.texte_infobulle:link { color: #000000; text-decoration: underline;}
+a.texte_infobulle:visited { color:#000000; text-decoration: underline; }
+a.texte_infobulle:active { color: #000000;text-decoration: underline;}
+a.texte_infobulle:hover { color: #000000; text-decoration: underline; }
+a.texte_infobulle em {display:none;}
+a.texte_infobulle:hover {border: 0; position: relative;z-index: 500;text-decoration:none;}
+a.texte_infobulle:hover em {font-style: normal; display: block;position: absolute; top: 27px; left: -280px; padding: 5px; color: #000; border: 1px solid #bbb; background: #ffc; width:350px;}
+a.texte_infobulle:hover em span {position: absolute; top: -7px; left: 3px; height: 7px; width: 11px; background: transparent url(admin/image-infobulle.gif); margin:0; padding: 0; border: 0;}
+
+
+
+a.date:link { color: #000000; text-decoration: underline;}
+a.date:visited { color:#000000; text-decoration: underline; }
+a.date:active { color: #000000;text-decoration: underline;}
+a.date:hover { color: #000000; text-decoration: underline; }
+a.date em {display:none;} 
+a.date:hover {border: 0; position: relative;z-index: 500;text-decoration:none;} 
+a.date:hover em {font-style: normal; display: block;position: absolute; top: 27px; left: -70px; padding: 5px; color: #000; border: 1px solid #bbb; background: #ffc; width:200px;}
+a.date:hover em span {position: absolute; top: -7px; left: 3px; height: 7px; width: 11px; background: transparent url(admin/image-infobulle.gif); margin:0; padding: 0; border: 0;}
+
+
+a.date1:link { color: #000000; text-decoration: underline; }
+a.date1:visited { color: #000000;text-decoration: underline;}
+a.date1:active { color: #000000; text-decoration: underline;}
+a.date1:hover { color: #000000; text-decoration: underline;}
+a.date1 em {display:none;}
+a.date1:hover {border: 0; position: relative;z-index: 500;text-decoration:none;}
+a.date1:hover em {font-style: normal; display: block;position: absolute; top: 27px; left: -70px; padding: 5px; color: #000; border: 1px solid #bbb; background: #ffc; width:200px;}
+a.date1:hover em span {position: absolute; top: -7px; left: 3px; height: 7px; width: 11px; background: transparent url(admin/image-infobulle.gif); margin:0; padding: 0; border: 0;}
+
+a.date1_admin:link { color: #000000; }
+a.date1_admin:visited { color: #000000;text-decoration: underline;}
+a.date1_admin:active { color: #000000; text-decoration: underline;}
+a.date1_admin:hover { color: #000000; text-decoration: underline;}
+a.date1_admin em {display:none;}
+a.date1_admin:hover {border: 0; position: relative;z-index: 500;text-decoration:none;}
+a.date1_admin:hover em {font-style: normal; display: block;position: absolute; top: 27px; left: -70px; padding: 5px; color: #000; border: 1px solid #bbb; background: #ffc; width:200px;}
+a.date1_admin:hover em span {position: absolute; top: -7px; left: 3px; height: 7px; width: 11px; background: transparent url(image-infobulle.gif); margin:0; padding: 0; border: 0;}
+
+
+a.date2:link { color: #000000; text-decoration: underline; }
+a.date2:visited { color: #000000;text-decoration: underline;}
+a.date2:active { color: #000000; text-decoration: underline;}
+a.date2:hover { color: #000000; text-decoration: underline;}
+a.date2 em {display:none;}
+a.date2:hover {border: 0; position: relative;z-index: 500;text-decoration:none;}
+a.date2:hover em {font-style: normal; display: block;position: absolute; top: 27px; left: -70px; padding: 5px; color: #000; border: 1px solid #bbb; background: #ffc; width:200px;}
+a.date2:hover em span {position: absolute; top: -7px; left: 3px; height: 7px; width: 11px; background: transparent url(admin/image-infobulle.gif); margin:0; padding: 0; border: 0;}
+
+a.date2_admin:link { color: #000000; }
+a.date2_admin:visited { color: #000000;text-decoration: underline;}
+a.date2_admin:active { color: #000000; text-decoration: underline;}
+a.date2_admin:hover { color: #000000; text-decoration: underline;}
+a.date2_admin em {display:none;}
+a.date2_admin:hover {border: 0; position: relative;z-index: 500;text-decoration:none;}
+a.date2_admin:hover em {font-style: normal; display: block;position: absolute; top: 27px; left: -70px; padding: 5px; color: #000; border: 1px solid #bbb; background: #ffc; width:200px;}
+a.date2_admin:hover em span {position: absolute; top: -7px; left: 3px; height: 7px; width: 11px; background: transparent url(image-infobulle.gif); margin:0; padding: 0; border: 0;}
+
+
+
+a.date_admin:link { color: #000000; text-decoration: underline;}
+a.date_admin:visited { color:#000000; text-decoration: underline; }
+a.date_admin:active { color: #000000;text-decoration: underline;}
+a.date_admin:hover { color: #000000; text-decoration: underline; }
+a.date_admin em {display:none;}
+a.date_admin:hover {border: 0; position: relative;z-index: 500;text-decoration:none;}
+a.date_admin:hover em {font-style: normal; display: block;position: absolute; top: 27px; left: -9px; padding: 5px; color: #000; border: 1px solid #bbb; background: #ffc; width:170px;}
+a.date_admin:hover em span {position: absolute; top: -7px; left: 3px; height: 7px; width: 11px; background: transparent url(image-infobulle.gif); margin:0; padding: 0; border: 0;}
+
+
+
+a.offset:link { color: #4B6086; }
+a.offset:visited { color:#4B6086; text-decoration: underline; }
+a.offset:active { color: #4B6086;text-decoration: underline;}
+a.offset:hover { color: #4B6086; text-decoration: underline; }
+a.offset em {display:none;}
+a.offset:hover {border: 0; position: relative;z-index: 500;text-decoration:none;}
+a.offset:hover em {font-style: normal; display: block;position: absolute; top: 27px; left: -9px; padding: 5px; color: #000; border: 1px solid #bbb; background: #ffc; width:170px;}
+a.offset:hover em span {position: absolute; top: -7px; left: 3px; height: 7px; width: 11px; background: transparent url(image-infobulle.gif); margin:0; padding: 0; border: 0;}
+
+
+a.selection:link { color: #FFFFFF; text-decoration: none; }
+a.selection:visited { color: #FFFFFF; text-decoration: none; }
+a.selection:active { color: #FFFFFF; text-decoration: none;}
+a.selection:hover { color: #FFFFFF; text-decoration: none; }
+
+
+a.selection_1mois:link { color: #4B6086; text-decoration: none; }
+a.selection_1mois:visited { color: #4B6086; text-decoration: none; }
+a.selection_1mois:active { color: #4B6086; text-decoration: none;}
+a.selection_1mois:hover { color: #4B6086; text-decoration: none; }
+
+
+td.cellule_mois
+{
+   font-family: Arial;
+   font-size: 12px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #4B6086;
+   background-color: #FFFFCC;
+   width : 140px;
+   height : 15px;
+   text-align : center ;    
+              border-top: 1px #4A518A solid; 
+              border-bottom: 1px #4A518A solid; 
+              border-left: 1px #4A518A solid; 
+             border-right: 1px #4A518A solid; 
+}
+
+
+td.cellule_mois_tous
+{
+   font-family: Arial;
+   font-size: 12px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #4B6086;
+   background-color: #FFFFCC;
+   height : 15px;
+   text-align : center ;    
+              border-top: 1px #4A518A solid; 
+              border-bottom: 1px #4A518A solid; 
+              border-left: 1px #4A518A solid; 
+             border-right: 1px #4A518A solid; 
+}
+
+
+td.cellule_plus_moins_mois
+{
+   font-family: Arial;
+   font-size: 12px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #4B6086;
+   background-color: #FFFFCC;
+   height : 15px;
+   text-align : center ;   
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+
+td.lettre_jour_semaine
+{
+   font-family: Arial;
+   font-size: 11px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #FFFFFF;
+   background-color: #666666;
+   width : 18px;
+   height : 15px;
+   text-align : center ;   
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+
+td.lettre_jour_week_end
+{
+   font-family: Arial;
+   font-size: 11px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #FFFFFF;
+   background-color: #B5B5B5;
+   width : 18px;
+   height : 15px;
+   text-align : center ;   
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+
+td.lettre_jour_num_semaine
+{
+   font-family: Arial;
+   font-size: 11px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #FFFFFF;
+   background-color: #97B5D4;
+   width : 18px;
+   height : 15px;
+   text-align : center ;   
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+
+td.lettre_jour_num_semaine_periode
+{
+   font-family: Arial;
+   font-size: 11px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #FFFFFF;
+   background-color: #97B5D4;
+   width : 18px;
+   height : 15px;
+   width  : 140px;
+   text-align : center ;   
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+
+td.chiffre_num_semaine
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #04606E;
+   background-color: #D5DDE8;
+   width : 18px;
+   height : 15px;
+   text-align : center ;   
+}
+
+
+td.lettre_num_jour_libre
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FFFFFF;
+   height : 15px;
+   text-align : center ;   
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+
+td.lettre_num_jour_libre_periode
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FFFFFF;
+   height : 15px;
+   width  : 140px;
+   text-align : center ;   
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+
+td.lettre_num_jour_libre_developpe
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FFFFFF;
+   height : 15px;
+   width  : 140px;
+   text-align : center ;   
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+
+td.lettre_num_jour_libre_week_end
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FFFFFF;
+   height : 15px;
+   text-align : center ;   
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+
+td.lettre_num_jour_libre_week_end_developpe
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FFFFFF;
+   height : 15px;
+   width  : 140px;
+   text-align : center ;   
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+
+td.lettre_num_jour_libre_cellule_vide
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #003366;
+   height : 15px;
+   text-align : center ; 
+}
+
+
+td.lettre_num_jour_libre_cellule_vide_developpe
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FFFFFF;
+   height : 15px;
+   width  : 140px;
+   text-align : center ; 
+}
+
+
+td.lettre_num_jour_libre_week_end_cellule_vide
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FFFFFF;
+   height : 15px;
+   text-align : center ; 
+}
+
+
+td.lettre_num_jour_libre_week_end_cellule_vide_developpe
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #003366;
+   height : 15px;
+   width  : 140px;
+   text-align : center ; 
+}
+
+
+   td.lettre_num_jour_libre_week_end_cellule_vide
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #003366;
+   height : 15px;
+   text-align : center ; 
+}                  td.chiffre_num_semaine_cellule_vide
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #D5DDE8;
+   height : 15px;
+   text-align : center ;
+}
+
+
+td.jour_reserve_1
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FFDF61;
+   height : 15px;
+   text-align : center ;   
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+
+td.jour_reserve_1_developpe
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FFDF61;
+   height : 15px;
+   width  : 140px;
+   text-align : center ;   
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+
+td.jour_reserve_2
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FF0000;
+   height : 15px;
+   text-align : center ;   
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+
+td.jour_reserve_2_developpe
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FF0000;
+   height : 15px;
+   width  : 140px;
+   text-align : center ;   
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+
+td.jour_reserve_libre
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FFFFFF;
+   height : 15px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/libre.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+td.jour_reserve_weekend
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FFFFFF;
+   height : 15px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/weekend.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+td.jour_reserve_triangle_1-1
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FFDF61;
+   height : 15px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/triangle_1-1.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+td.jour_reserve_triangle_1-1
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FFDF61;
+   height : 15px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/triangle_1-1.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+td.jour_reserve_triangle_1-1_developpe
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FFDF61;
+   height : 15px;
+   width  : 140px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/triangle_1-1.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+td.jour_reserve_triangle_1-1_developpe
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FFDF61;
+   height : 15px;
+   width  : 140px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/triangle_1-1.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+
+td.jour_reserve_rectangle_1-1
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FFDF61;
+   height : 15px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/rectangle_1-1.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+td.jour_reserve_rectangle_1-1
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FFDF61;
+   height : 15px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/rectangle_1-1.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+td.jour_reserve_rectangle_1-1_developpe
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FFDF61;
+   height : 15px;
+   width  : 140px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/rectangle_1-1.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+td.jour_reserve_rectangle_1-1_developpe
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FFDF61;
+   height : 15px;
+   width  : 140px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/rectangle_1-1.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+
+td.jour_reserve_triangle_2-1
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FFDF61;
+   height : 15px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/triangle_2-1.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+td.jour_reserve_triangle_1-2
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FFDF61;
+   height : 15px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/triangle_1-2.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+td.jour_reserve_triangle_2-1_developpe
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FFDF61;
+   height : 15px;
+   width  : 140px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/triangle_2-1.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+td.jour_reserve_triangle_1-2_developpe
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FFDF61;
+   height : 15px;
+   width  : 140px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/triangle_1-2.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+
+td.jour_reserve_rectangle_2-1
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FFDF61;
+   height : 15px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/rectangle_2-1.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+td.jour_reserve_rectangle_1-2
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FFDF61;
+   height : 15px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/rectangle_1-2.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+td.jour_reserve_rectangle_2-1_developpe
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FFDF61;
+   height : 15px;
+   width  : 140px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/rectangle_2-1.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+td.jour_reserve_rectangle_1-2_developpe
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FFDF61;
+   height : 15px;
+   width  : 140px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/rectangle_1-2.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+
+td.jour_reserve_triangle_libre-1
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FFDF61;
+   height : 15px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/triangle_libre-1.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+td.jour_reserve_triangle_1-libre
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FFDF61;
+   height : 15px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/triangle_1-libre.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+td.jour_reserve_rectangle_libre-1
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FFDF61;
+   height : 15px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/rectangle_libre-1.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+td.jour_reserve_rectangle_1-libre
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FFDF61;
+   height : 15px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/rectangle_1-libre.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+td.jour_reserve_triangle_libre-1_developpe
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FFDF61;
+   height : 15px;
+   width  : 140px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/triangle_libre-1.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+td.jour_reserve_triangle_1-libre_developpe
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FFDF61;
+   height : 15px;
+   width  : 140px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/triangle_1-libre.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+td.jour_reserve_rectangle_libre-1_developpe
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FFDF61;
+   height : 15px;
+   width  : 140px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/rectangle_libre-1.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+td.jour_reserve_rectangle_1-libre_developpe
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FFDF61;
+   height : 15px;
+   width  : 140px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/rectangle_1-libre.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+
+
+td.jour_reserve_triangle_weekend-1
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FFFFFF;
+   height : 15px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/triangle_weekend-1.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+td.jour_reserve_triangle_1-weekend
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FFFFFF;
+   height : 15px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/triangle_1-weekend.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+td.jour_reserve_rectangle_weekend-1
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FFFFFF;
+   height : 15px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/rectangle_weekend-1.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+td.jour_reserve_rectangle_1-weekend
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FFFFFF;
+   height : 15px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/rectangle_1-weekend.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+td.jour_reserve_triangle_weekend-1_developpe
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FFFFFF;
+   height : 15px;
+   width  : 140px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/triangle_weekend-1.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+td.jour_reserve_triangle_1-weekend_developpe
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FFFFFF;
+   height : 15px;
+   width  : 140px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/triangle_1-weekend.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+td.jour_reserve_rectangle_weekend-1_developpe
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FFFFFF;
+   height : 15px;
+   width  : 140px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/rectangle_weekend-1.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+td.jour_reserve_rectangle_1-weekend_developpe
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FFFFFF;
+   height : 15px;
+   width  : 140px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/rectangle_1-weekend.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+
+
+td.jour_reserve_triangle_1-2
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FF0000;
+   height : 15px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/triangle_1-2.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+td.jour_reserve_triangle_2-1
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FF0000;
+   height : 15px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/triangle_2-1.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+td.jour_reserve_triangle_1-2_developpe
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FF0000;
+   height : 15px;
+   width  : 140px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/triangle_1-2.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+td.jour_reserve_triangle_2-1_developpe
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FF0000;
+   height : 15px;
+   width  : 140px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/triangle_2-1.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+
+td.jour_reserve_rectangle_1-2
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FF0000;
+   height : 15px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/rectangle_1-2.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+td.jour_reserve_rectangle_2-1
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FF0000;
+   height : 15px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/rectangle_2-1.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+td.jour_reserve_rectangle_1-2_developpe
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FF0000;
+   height : 15px;
+   width  : 140px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/rectangle_1-2.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+td.jour_reserve_rectangle_2-1_developpe
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FF0000;
+   height : 15px;
+   width  : 140px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/rectangle_2-1.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+
+td.jour_reserve_triangle_2-2
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FF0000;
+   height : 15px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/triangle_2-2.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+td.jour_reserve_triangle_2-2
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FF0000;
+   height : 15px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/triangle_2-2.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+td.jour_reserve_triangle_2-2_developpe
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FF0000;
+   height : 15px;
+   width  : 140px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/triangle_2-2.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+td.jour_reserve_triangle_2-2_developpe
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FF0000;
+   height : 15px;
+   width  : 140px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/triangle_2-2.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+
+td.jour_reserve_rectangle_2-2
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FF0000;
+   height : 15px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/rectangle_2-2.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+td.jour_reserve_rectangle_2-2
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FF0000;
+   height : 15px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/rectangle_2-2.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+td.jour_reserve_rectangle_2-2_developpe
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FF0000;
+   height : 15px;
+   width  : 140px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/rectangle_2-2.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+td.jour_reserve_rectangle_2-2_developpe
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FF0000;
+   height : 15px;
+   width  : 140px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/rectangle_2-2.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+
+td.jour_reserve_triangle_libre-2
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FF0000;
+   height : 15px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/triangle_libre-2.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+td.jour_reserve_triangle_2-libre
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FF0000;
+   height : 15px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/triangle_2-libre.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+td.jour_reserve_rectangle_libre-2
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FF0000;
+   height : 15px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/rectangle_libre-2.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+td.jour_reserve_rectangle_2-libre
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FF0000;
+   height : 15px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/rectangle_2-libre.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+td.jour_reserve_triangle_libre-2_developpe
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FF0000;
+   height : 15px;
+   width  : 140px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/triangle_libre-2.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+td.jour_reserve_triangle_2-libre_developpe
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FF0000;
+   height : 15px;
+   width  : 140px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/triangle_2-libre.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+td.jour_reserve_rectangle_libre-2_developpe
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FF0000;
+   height : 15px;
+   width  : 140px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/rectangle_libre-2.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+td.jour_reserve_rectangle_2-libre_developpe
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FF0000;
+   height : 15px;
+   width  : 140px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/rectangle_2-libre.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+
+
+td.jour_reserve_triangle_weekend-2
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FFFFFF;
+   height : 15px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/triangle_weekend-2.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+td.jour_reserve_triangle_2-weekend
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FFFFFF;
+   height : 15px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/triangle_2-weekend.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+td.jour_reserve_rectangle_weekend-2
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FFFFFF;
+   height : 15px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/rectangle_weekend-2.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+td.jour_reserve_rectangle_2-weekend
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FFFFFF;
+   height : 15px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/rectangle_2-weekend.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+td.jour_reserve_triangle_weekend-2_developpe
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FFFFFF;
+   height : 15px;
+   width  : 140px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/triangle_weekend-2.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+td.jour_reserve_triangle_2-weekend_developpe
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FFFFFF;
+   height : 15px;
+   width  : 140px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/triangle_2-weekend.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+td.jour_reserve_rectangle_weekend-2_developpe
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FFFFFF;
+   height : 15px;
+   width  : 140px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/rectangle_weekend-2.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+td.jour_reserve_rectangle_2-weekend_developpe
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #FFFFFF;
+   height : 15px;
+   width  : 140px;
+   text-align : center ;
+   background-image: url('http://www.gites-andalousie.com/cal2/admin/img_cal/rectangle_2-weekend.jpg?version=1390231868');
+   background-repeat: repeat;
+   background-position: center center; 
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+
+
+td.lettre_num_jour_aujourdhui
+{
+   font-family: Arial;
+   font-size: 9px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: #0D96FF;
+   height : 15px;
+   text-align : center ;   
+               border-top: 1px #4A518A solid; 
+               border-bottom: 1px #4A518A solid; 
+               border-left: 1px #4A518A solid; 
+               border-right: 1px #4A518A solid; 
+}
+
+
+td.cellule_offset
+{
+   font-family: Arial;
+   font-size: 12px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #4B6086;
+   background-color: #FFFFCC;
+   width : 140px;
+   height : 15px;
+   text-align : center ;    
+              border-top: 1px #4A518A solid; 
+              border-bottom: 1px #4A518A solid; 
+              border-left: 1px #4A518A solid; 
+             border-right: 1px #4A518A solid; 
+}
+
+
+td.cellule_separateur_horizontal
+{
+   font-family: Arial;
+   font-size: 12px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   text-align : center ;
+   background-color: #ADCFF2;
+   color: #4B6086;
+   height : 2px;
+}
+
+
+td.cellule_separateur_vertical
+{
+   font-family: Arial;
+   font-size: 12px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   text-align : center ;
+   background-color: #ADCFF2;
+   color: #4B6086;
+   width : 3px;
+}
+
