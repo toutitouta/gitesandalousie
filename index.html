@@ -391,6 +391,126 @@ Vous pouvez nous appeler, nous parlons fran&ccedil;ais<br>
 
 <!--
 
+
+          <form action="/gites/chercher" id="formID" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"></div>            <table style="border:0" class="srch">
+              <tbody>
+
+             
+             <tr>
+               <td colspan="2"> 
+                   <div class="input text"><label for="regionsNom">Gite &nbsp; (tout ou partie du nom)</label><input name="data[regions][nom]" type="text" id="regionsNom"></div> 
+               </td>
+             </tr>
+              <tr>
+                <td>
+                    <label> Province</label>
+                   <select name="data[regions][provinces]" style="width:105px" id="regionsProvinces">
+<option value=""></option>
+<option value="5">Malaga</option>
+<option value="10">Cadiz</option>
+<option value="2">Grenade</option>
+</select> 
+                </td> 
+                <td> 
+                   <label> Région</label>
+                   <select name="data[regions][zones]" style="width:105px" id="regionsZones">
+<option value=""></option>
+<option value="4">La Axarquia</option>
+<option value="10">La Alpujarra</option>
+<option value="11">Sierra de Grazalema</option>
+<option value="12">Côte Tropicale</option>
+<option value="13">Alhama</option>
+</select>                </td> 
+              </tr> 
+
+
+              <tr>
+                <td>
+                    <label> Lieu</label>
+                   <select name="data[regions][regions]" style="width:105px" id="regionsRegions">
+<option value=""></option>
+<option value="14">Pampaneira</option>
+<option value="15">Torrox</option>
+<option value="16">Lac La Viñuela</option>
+<option value="17">Periana</option>
+<option value="18">Alcaucin</option>
+<option value="13">Lanjaron</option>
+<option value="12">Orgiva</option>
+<option value="19">La Taha</option>
+<option value="20">Colmenar</option>
+<option value="21">Busquistar</option>
+<option value="22">Frigiliana</option>
+<option value="23">El Gastor</option>
+<option value="24">Riogordo</option>
+<option value="25">Almuñecar</option>
+<option value="26">Alhama</option>
+<option value="30">Alhama</option>
+</select> 
+                </td> 
+                <td> 
+                   <label> Type</label>
+                    <select name="data[regions][type]" style="width:105px" id="regionsType">
+<option value=""></option>
+<option value="1">Gite indépendant - piscine privée</option>
+<option value="6">Gite mitoyen - piscine privée</option>
+<option value="5">Gite indépendant - piscine à partager</option>
+<option value="7">Gite mitoyen - piscine à partager</option>
+<option value="8">Appartement rural</option>
+<option value="9">Maison mitoyenne - piscine à partager</option>
+</select>                </td> 
+              </tr> 
+
+              <tr>
+                <td>
+                    <label>Nombre de Chambres</label>
+                    <div class="input text"><label for="regionsNbrChambres"></label><input name="data[regions][nbr_chambres]" style="width:60px" type="text" id="regionsNbrChambres"></div>  
+                </td> 
+              
+                <td>
+                    <label>Nombre de personnes</label>
+                   <div class="input text"><label for="regionsNbrPersonnes"></label><input name="data[regions][nbr_personnes]" style="width:60px" type="text" id="regionsNbrPersonnes"></div> 
+                </td> 
+                </tr>
+              <tr>
+                <td>
+                    <label>Date d'arrivée</label>
+                     <div class="input text"><label for="datepicker-start"></label><input name="data[regions][from]" style="width:90px" readonly="readonly" id="datepicker-start" type="text"></div>  
+                </td> 
+
+                <td>
+                    <label>Nombre de nuits</label>
+                   <div class="input text"><label for="regionsNbrNuits"></label><input name="data[regions][nbr_nuits]" style="width:40px" type="text" id="regionsNbrNuits"></div> 
+                </td> 
+                </tr>
+
+
+
+                 <tr>
+                <td>
+                    <label>Piscine</label>
+                    <div class="input checkbox"><input type="hidden" name="data[regions][piscine]" id="regionsPiscine_" value="0"><input type="checkbox" name="data[regions][piscine]" value="1" id="regionsPiscine"><label for="regionsPiscine"></label></div> 
+                </td>
+                <td>
+                    <label>Climatisation</label>
+                   <div class="input checkbox"><input type="hidden" name="data[regions][climatisation]" id="regionsClimatisation_" value="0"><input type="checkbox" name="data[regions][climatisation]" value="1" id="regionsClimatisation"><label for="regionsClimatisation"></label></div> 
+                </td>
+              </tr>
+              <tr>
+                <td>
+                    <label>Animaux admis</label>
+                   <div class="input checkbox"><input type="hidden" name="data[regions][animaux]" id="regionsAnimaux_" value="0"><input type="checkbox" name="data[regions][animaux]" value="1" id="regionsAnimaux"><label for="regionsAnimaux"></label></div> 
+                </td>
+                <td>
+                    <label>internet</label>
+                   <div class="input checkbox"><input type="hidden" name="data[regions][internet]" id="regionsInternet_" value="0"><input type="checkbox" name="data[regions][internet]" value="1" id="regionsInternet"><label for="regionsInternet"></label></div> 
+                </td>
+              </tr> 
+
+              
+              
+            </tbody></table>
+           <div class="submit"><input type="submit" value="trouver"></div></form>         </div>
+
 -->
       </aside>
        <style>
@@ -413,43 +533,6 @@ Vous pouvez nous appeler, nous parlons fran&ccedil;ais<br>
            <h4> 1 chambre  </h4>      
                     
           
-          <div class="one-third column">
-        <div class="picFrame more-bottom" style='text-align:center'>
-            <div class="loading">
-              <a href="gites/index/94.html"><img src="img/photos/paysage-1-w1-1_180x120.jpg" width="180" height="120" alt=""></a>            </div>
-            <h5 class="uppercase" style="font-size: 18px"><a href="gites/index/94.html" style="color:#5A6EA0;">El Saladero</a></h5> 
-
-          <h5> Periana - 1/2 pers <h6>
-           
-        </h6></h5></div> 
-
-      </div>  
-                                                                   
-          
-          <div class="one-third column">
-        <div class="picFrame more-bottom" style='text-align:center'>
-            <div class="loading">
-              <a href="gites/index/97.html"><img src="img/photos/exter-8-w1-3_180x120.jpg" width="180" height="120" alt=""></a>            </div>
-            <h5 class="uppercase" style="font-size: 18px"><a href="gites/index/97.html" style="color:#5A6EA0;">La Cuadra</a></h5> 
-
-          <h5> Periana - 2/3 pers <h6>
-           
-        </h6></h5></div> 
-
-      </div>  
-                           
-          
-          <div class="one-third column">
-        <div class="picFrame more-bottom" style='text-align:center'>
-            <div class="loading">
-              <a href="gites/index/112.html"><img src="img/photos/par-pisc3_180x120.jpg" width="180" height="120" alt=""></a>            </div>
-            <h5 class="uppercase" style="font-size: 18px"><a href="gites/index/112.html" style="color:#5A6EA0;">Los Paraisos</a></h5> 
-
-          <h5> El Gastor - 1/4 pers <h6>
-           
-        </h6></h5></div> 
-
-      </div>  
                                                                                                                                                                        
           
           <div class="one-third column">
@@ -464,21 +547,7 @@ Vous pouvez nous appeler, nous parlons fran&ccedil;ais<br>
 
       </div>  
                            
-          
-          <div class="one-third column">
-        <div class="picFrame more-bottom" style='text-align:center'>
-            <div class="loading">
-              <a href="gites/index/95.html"><img src="img/photos/exter-10-w1-1_180x120.jpg" width="180" height="120" alt=""></a>            </div>
-            <h5 class="uppercase" style="font-size: 18px"><a href="gites/index/95.html" style="color:#5A6EA0;">La Camara</a></h5> 
-
-          <h5> Periana - 1/2 pers <h6>
-           
-        </h6></h5></div> 
-
-      </div>  
-                                                                                                           
-          
-          <div class="one-third column">
+       <div class="one-third column">
         <div class="picFrame more-bottom" style='text-align:center'>
             <div class="loading">
               <a href="gites/index/116.html"><img src="img/photos/romant-ext2_180x120.jpg" width="180" height="120" alt=""></a>            </div>
@@ -489,60 +558,9 @@ Vous pouvez nous appeler, nous parlons fran&ccedil;ais<br>
         </h6></h5></div> 
 
       </div>  
-                           
-          
-          <div class="one-third column">
-        <div class="picFrame more-bottom" style='text-align:center'>
-            <div class="loading">
-              <a href="gites/index/93.html"><img src="img/photos/atroe-19-w1_180x120.jpg" width="180" height="120" alt=""></a>            </div>
-            <h5 class="uppercase" style="font-size: 18px"><a href="gites/index/93.html" style="color:#5A6EA0;">El Atroe</a></h5> 
-
-          <h5> Periana - 2/3 pers <h6>
-           
-        </h6></h5></div> 
-
-      </div>  
-                           
-          
-          <div class="one-third column">
-        <div class="picFrame more-bottom" style='text-align:center'>
-            <div class="loading">
-              <a href="gites/index/114.html"><img src="img/photos/escon-ext1_180x120.jpg" width="180" height="120" alt=""></a>            </div>
-            <h5 class="uppercase" style="font-size: 18px"><a href="gites/index/114.html" style="color:#5A6EA0;">Escondidos</a></h5> 
-
-          <h5> El Gastor - 1/2 pers <h6>
-           
-        </h6></h5></div> 
-
-      </div>  
-                                                                                                                                                                       
-          
-          <div class="one-third column">
-        <div class="picFrame more-bottom" style='text-align:center'>
-            <div class="loading">
-              <a href="gites/index/96.html"><img src="img/photos/exter-7-w1-2_180x120.jpg" width="180" height="120" alt=""></a>            </div>
-            <h5 class="uppercase" style="font-size: 18px"><a href="gites/index/96.html" style="color:#5A6EA0;">El Pajar</a></h5> 
-
-          <h5> Periana - 2/3 pers <h6>
-           
-        </h6></h5></div> 
-
-      </div>  
-                                                                   
-          
-          <div class="one-third column">
-        <div class="picFrame more-bottom" style='text-align:center'>
-            <div class="loading">
-              <a href="gites/index/98.html"><img src="img/photos/exter-1-w1-4_180x120.jpg" width="180" height="120" alt=""></a>            </div>
-            <h5 class="uppercase" style="font-size: 18px"><a href="gites/index/98.html" style="color:#5A6EA0;">Los Estaeros</a></h5> 
-
-          <h5> Periana - 1/2 pers <h6>
-           
-        </h6></h5></div> 
-
-      </div>  
-                           </div> 
-           <div style="clear:both;"></div> 
+            
+      </div> 
+     <div style="clear:both;"></div> 
                                
 
       
